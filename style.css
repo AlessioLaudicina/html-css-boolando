@@ -10,20 +10,29 @@ body{
 }
 
 header{
-    height: 50px;
+    height: 41px;
     background-color: orange;
-    padding-top: 50px;
-}
-
-nav{
+    
     display: flex;
     justify-content: space-evenly;
 }
 
+.logo{
+    padding-top: 5px;
+
+}
+
+
 .logo img{
     height: 30px;
     width: 100px
+    
 
+}
+
+.icons{
+    color: whitesmoke;
+    padding-top: 10px;
 }
 
 
@@ -34,12 +43,14 @@ nav{
 
 .gender{
     color: whitesmoke;
+    padding-top: 10px;
 
 }
 
 .columns {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 200px;
 }
 
 .product {
@@ -53,4 +64,11 @@ nav{
 
 .product img {
     width: 100%;
+}
+
+
+footer{
+    height: 200px;
+    background-color: black;
+
 }
