@@ -25,7 +25,6 @@ header{
 
 .logo img{
     height: 30px;
-    width: 100px
     
 
 }
@@ -68,6 +67,16 @@ i{
 
 .product img {
     width: 100%;
+}
+.product .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.product:hover .img-top {
+    display: inline;
 }
 
 
