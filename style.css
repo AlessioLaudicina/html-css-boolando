@@ -36,6 +36,10 @@ header{
 }
 
 
+i{
+    padding: 3px;
+}
+
 .container {
     max-width: 1170px;
     margin: 100px auto;
@@ -68,7 +72,21 @@ header{
 
 
 footer{
-    height: 200px;
+    padding: 10px;
     background-color: black;
 
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-footer{
+    color: white;
+}
+
+.social{
+    color: white;
+    padding: 2px;
 }
