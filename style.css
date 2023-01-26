@@ -153,6 +153,14 @@ main{
     background-color: green;
 }
 
+.text-product{
+
+    font-size: 12px;
+
+}
+
+
+
 footer{
     padding: 10px;
     background-color: black;
@@ -173,4 +181,11 @@ footer{
     color: white;
     padding: 2px;
     line-height: 1.5;
+}
+
+.social i{
+    
+    padding: 5px;
+    
+    
 }
