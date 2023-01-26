@@ -10,15 +10,33 @@ body{
 }
 
 header{
-    height: 41px;
-    background-color: orange;
-    
+    background-color: rgb(255	104	0);
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    position: fixed;
+    z-index: 2;
+    height: 70px;
+}
+
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+header nav ul{
+
+    display: flex;
+    list-style: none;
 }
 
 .logo{
-    padding-top: 5px;
+    height: 30px;
 
 }
 
@@ -29,24 +47,33 @@ header{
 
 }
 
-.icons{
+.icons i{
     color: whitesmoke;
-    padding-top: 10px;
-}
-
-
-i{
     padding: 3px;
 }
 
-.container {
-    max-width: 1170px;
-    margin: 100px auto;
+.icons a{
+
+    text-decoration: none;
+    padding-left: 10px;
+
+
 }
 
-.gender{
+
+.container {
+    max-width: 1170px;
+    margin:  auto;
+}
+
+
+
+main{
+    padding: 100px 0px;
+}
+.main-menu li{
     color: whitesmoke;
-    padding-top: 10px;
+    padding-right: 10px;
 
 }
 
@@ -67,18 +94,64 @@ i{
 
 .product img {
     width: 100%;
+    position: relative;
 }
 .product .img-top {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 1;
 }
 .product:hover .img-top {
     display: inline;
 }
 
+.wishlist{
+    right: 0;
+    top: 30px;
+    font-size: 20px;
+    padding: 5px;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+}
+
+.wishlist:hover{
+    color: red;
+}
+
+
+
+.tags{
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    z-index: 99;
+
+}
+
+.tag{
+    padding: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+
+.discount{
+    background-color: red;
+}
+
+.eco{
+    background-color: green;
+}
 
 footer{
     padding: 10px;
@@ -93,9 +166,11 @@ footer{
 
 .title-footer{
     color: white;
+    line-height: 1.5;
 }
 
 .social{
     color: white;
     padding: 2px;
+    line-height: 1.5;
 }
